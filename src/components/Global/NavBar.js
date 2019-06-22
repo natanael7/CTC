@@ -11,7 +11,7 @@ function NavBar(){
                 </button>
                 <div className="collapse navbar-collapse" id="ftco-nav">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active"><a href="index.html" className="nav-link">Home</a></li>
+                        <li className="nav-item "><a href="index.html" className="nav-link">Home</a></li>
                         <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
                         <li className="nav-item"><a href="causes.html" className="nav-link">Causes</a></li>
                         <li className="nav-item"><a href="donate.html" className="nav-link">Donate</a></li>
