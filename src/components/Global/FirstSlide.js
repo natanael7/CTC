@@ -1,11 +1,11 @@
 import React from 'react';
 
-function FirstSlide() {
+function FirstSlide(props) {
 	return (
 		<div>
 			<div
 				className="hero-wrap"
-				style={{ backgroundImage: 'url("images/bg_6.jpg")' }}
+				style={{ backgroundImage: `url(${props.background})` }}			
 				data-stellar-background-ratio="0.5"
 			>
 				<div className="overlay" />
@@ -22,10 +22,12 @@ function FirstSlide() {
 								<span className="mr-2">
 									<a href="index.html">Home</a>
 								</span>{' '}
-								<span>Donate</span>
+								{/* <span>About</span> */}
+								<span>{props.span}</span>
 							</p>
 							<h1 className="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-								Donations
+								{/* About Us */}
+								{props.h1}
 							</h1>
 						</div>
 					</div>

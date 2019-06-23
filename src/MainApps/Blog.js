@@ -1,12 +1,19 @@
 import React from 'react';
 
-import BlogCards from '../components/App/BlogComponents/BlogCards.js'
-import FirstSlide from '../components/App/BlogComponents/FirstSlide.js'
+import FirstSlide from '../components/Global/FirstSlide.js'
+
+import BlogCards from '../components/App/BlogComponents/BlogCards.js';
+
+let FirstSlideProps = {
+    background: 'images/bg_2.jpg',
+    span: 'Blog',
+    h1: 'Blog'
+}
 
 function Blog() {
 	return (
 		<div>
-			<FirstSlide />
+            <FirstSlide {...FirstSlideProps} />
 			<BlogCards />
 		</div>
 	);

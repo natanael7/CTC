@@ -1,13 +1,20 @@
 import React from 'react';
 
-import FirstSlide from '../components/App/GalleryComponents/FirstSlide.js'
 import GalleryBox from '../components/App/GalleryComponents/GalleryBox.js'
-import BeAVolunteer from '../components/App/IndexComponents/BeAVolunteer'
+
+import FirstSlide from '../components/Global/FirstSlide.js'
+import BeAVolunteer from '../components/Global/BeAVolunteer'
+
+let FirstSlideProps = {
+    background: 'images/bg_2.jpg',
+    span: 'Gallery',
+    h1: 'Galleries'
+}
 
 function Gallery(){
     return(
         <div>
-            <FirstSlide />
+            <FirstSlide {...FirstSlideProps} />
             <GalleryBox />
             <BeAVolunteer />
         </div>

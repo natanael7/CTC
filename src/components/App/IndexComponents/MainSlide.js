@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FirstSlide(){
+function MainSlide(){
     return(
         <div>
             <div className="hero-wrap" style={{backgroundImage: 'url("images/bg_7.jpg")'}} data-stellar-background-ratio="0.5">
@@ -19,4 +19,4 @@ function FirstSlide(){
     )
 }
 
-export default FirstSlide;
+export default MainSlide;

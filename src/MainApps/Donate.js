@@ -1,13 +1,20 @@
 import React from 'react';
 
-import FirstSlide from '../components/App/DonateComponents/FirstSlide.js'
 import DonationCards from '../components/App/DonateComponents/DonationCards.js'
-import BeAVolunteer from '../components/App/IndexComponents/BeAVolunteer';
+
+import FirstSlide from '../components/Global/FirstSlide.js'
+import BeAVolunteer from '../components/Global/BeAVolunteer';
+
+let FirstSlideProps = {
+    background: 'images/bg_7.jpg',
+    span: 'About',
+    h1: 'About Us'
+}
 
 function Donate(){
     return(
         <div>
-            <FirstSlide />
+            <FirstSlide {...FirstSlideProps} />
             <DonationCards />
             <BeAVolunteer />
         </div>

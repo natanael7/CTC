@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavItem from "../Local/NavItem"
+
 function NavBar(){
     return(
         <div>
@@ -11,14 +13,14 @@ function NavBar(){
                 </button>
                 <div className="collapse navbar-collapse" id="ftco-nav">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item "><a href="index.html" className="nav-link">Home</a></li>
-                        <li className="nav-item"><a href="about.html" className="nav-link">About</a></li>
-                        <li className="nav-item"><a href="causes.html" className="nav-link">Causes</a></li>
-                        <li className="nav-item"><a href="donate.html" className="nav-link">Donate</a></li>
-                        <li className="nav-item"><a href="blog.html" className="nav-link">Blog</a></li>
-                        <li className="nav-item"><a href="gallery.html" className="nav-link">Gallery</a></li>
-                        <li className="nav-item"><a href="event.html" className="nav-link">Events</a></li>
-                        <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
+                        <NavItem link="index.html" name="Home"/>
+                        <NavItem link="about.html" name="About"/>
+                        <NavItem link="causes.html" name="Causes"/>
+                        <NavItem link="donate.html" name="Donate"/>
+                        <NavItem link="blog.html" name="Blog"/>
+                        <NavItem link="gallery.html" name="Gallery"/>
+                        <NavItem link="event.html" name="Events"/>
+                        <NavItem link="contact.html" name="Contact"/>
                     </ul>
                 </div>
             </div>

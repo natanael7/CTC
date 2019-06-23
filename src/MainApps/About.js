@@ -1,13 +1,22 @@
 import React from 'react';
-import FirstSlide from '../components/App/AboutComponents/FirstSlide.js'
+
 import Welcome from '../components/App/AboutComponents/Welcome.js'
-import Counter from '../components/App/IndexComponents/Counter'
 import Donations from '../components/App/IndexComponents/Donations'
+
+import FirstSlide from '../components/Global/FirstSlide.js'
+import Counter from '../components/Global/Counter'
+
+
+let FirstSlideProps = {
+    background: 'images/bg_7.jpg',
+    span: 'About',
+    h1: 'About Us'
+}
 
 function About(){
     return(
         <div>
-            <FirstSlide />
+            <FirstSlide {...FirstSlideProps} />
             <Welcome />
             <Counter />
             <Donations />
