@@ -24,8 +24,8 @@ let thirdCard = {
 function Help(){
     return(
         <div>
-            <section className="ftco-section">
-                <div className="container">
+            <section className="ftco-section help">
+                <div className="container ">
                 <div className="row">
                     <HelpCard {...firstCard}/>
                     <HelpCard {...secondCard}/>

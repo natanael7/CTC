@@ -64,7 +64,16 @@ function ContactSlide() {
 								</div>
 							</form>
 						</div>
-						<div className="col-md-6" id="map" />
+						<div className="col-md-6" id="map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32183.64761259291!2d28.833309601703466!3d47.03357980727307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41ac96d0bf55521!2sCentrul+Municipal+de+Tineret+Chi%C8%99in%C4%83u!5e0!3m2!1sen!2sit!4v1561325524045!5m2!1sen!2sit"
+								width={600}
+								height={450}
+								frameBorder={0}
+								style={{ border: 0 }}
+								allowFullScreen
+							/>
+						</div>
 					</div>
 				</div>
 			</section>

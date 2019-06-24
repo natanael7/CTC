@@ -8,7 +8,7 @@ function Counter(){
     return(
         <div>
            <section className="ftco-counter ftco-intro" id="section-counter">
-                <div className="container">
+                <div className="container" >
                 <div className="row no-gutters">
                     <CounterMain />
                     <CounterDonate />
