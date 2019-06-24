@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as HashRouter, Route, Link } from 'react-router-dom';
+import {HashRouter, Route, Link } from 'react-router-dom';
 
 import IndexApp from './MainApps/IndexApp.js'
 import About from './MainApps/About.js'
