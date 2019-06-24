@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Link } from 'react-router-dom';
 
 import IndexApp from './MainApps/IndexApp.js'
 import About from './MainApps/About.js'
@@ -52,8 +52,7 @@ function fGallery() {
 
 function AppRouter() {
   return (
-    <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
-      <Router>
+      <HashRouter  basename="/">
         <div>
           <NavBar />
           <Route path="/" exact component={Index} />
@@ -67,8 +66,7 @@ function AppRouter() {
           <Route path="/contact.html" exact component={fContact} />
           <Footer />
         </div>
-      </Router>
-    </BrowserRouter>
+      </HashRouter>
   );
 }
 
