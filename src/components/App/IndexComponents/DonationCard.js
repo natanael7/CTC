@@ -10,10 +10,10 @@ function DonationCard(props) {
 						<h3>
 							<a href="teacher-single.html">{props.name}</a>
 						</h3>
-						<span className="position">Donated {props.date}</span>
+						<span className="position">Donat {props.date}</span>
 						<div className="text">
 							<p>
-								Donated <span>{props.ammount}</span> for <a href={props.causeLink}>{props.cause}</a>
+								A donat <span>{props.ammount}</span> pentru <a href={props.causeLink}>{props.cause}</a>
 							</p>
 						</div>
 					</div>

@@ -12,17 +12,17 @@ function ContactSlide() {
 						<div className="w-100" />
 						<div className="col-md-3">
 							<p>
-								<span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016
+								<span>Adresă:</span> str. Petru Zadnipru 3/2, <br />mun. Chișinău, Ciocana
 							</p>
 						</div>
 						<div className="col-md-3">
 							<p>
-								<span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a>
+								<span>Telefon:</span> <a href="tel://1234567920">+373 22 486 790</a>
 							</p>
 						</div>
 						<div className="col-md-3">
 							<p>
-								<span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+								<span>Email:</span> <a href="mailto:info@yoursite.com">email@gmail.com</a>
 							</p>
 						</div>
 						<div className="col-md-3">
@@ -33,27 +33,27 @@ function ContactSlide() {
 					</div>
 					<div className="row block-9">
 						<div className="col-md-6 pr-md-5">
-							<h4 className="mb-4">Do you have any questions?</h4>
+							<h4 className="mb-4">Ai careva întrebări?</h4>
 							<form action="#">
 								<div className="form-group">
-									<input type="text" className="form-control" placeholder="Your Name" />
+									<input type="text" className="form-control" placeholder="Nume" />
 								</div>
 								<div className="form-group">
-									<input type="text" className="form-control" placeholder="Your Email" />
+									<input type="text" className="form-control" placeholder="Email" />
 								</div>
 								<div className="form-group">
-									<input type="text" className="form-control" placeholder="Subject" />
+									<input type="text" className="form-control" placeholder="Subiect" />
 								</div>
 								<div className="form-group">
 									<textarea
 										name
 										id
 										cols={30}
-										rows={7}
+										rows={7}  
 										className="form-control"
-										placeholder="Message"
+										placeholder="Mesaj"
 										defaultValue={''}
-									/>
+									  />
 								</div>
 								<div className="form-group">
 									<input

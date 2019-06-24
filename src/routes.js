@@ -52,21 +52,23 @@ function fGallery() {
 
 function AppRouter() {
   return (
-    <Router>
-      <div>
-        <NavBar />
-        <Route path="/" exact component={Index} />
-        <Route path="/index.html" exact component={Index} />
-        <Route path="/about.html" exact component={About} />
-        <Route path="/blog.html" exact component={fBlog} />
-        <Route path="/causes.html" exact component={fCauses} />
-        <Route path="/donate.html" exact component={fDonate} />
-        <Route path="/gallery.html" exact component={fGallery} />
-        <Route path="/event.html" exact component={fEvent} />
-        <Route path="/contact.html" exact component={fContact} />
-        <Footer />
-      </div>
-    </Router>
+    <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
+      <Router>
+        <div>
+          <NavBar />
+          <Route path="/" exact component={Index} />
+          <Route path="/index.html" exact component={Index} />
+          <Route path="/about.html" exact component={About} />
+          <Route path="/blog.html" exact component={fBlog} />
+          <Route path="/causes.html" exact component={fCauses} />
+          <Route path="/donate.html" exact component={fDonate} />
+          <Route path="/gallery.html" exact component={fGallery} />
+          <Route path="/event.html" exact component={fEvent} />
+          <Route path="/contact.html" exact component={fContact} />
+          <Footer />
+        </div>
+      </Router>
+    </BrowserRouter>
   );
 }
 

@@ -4,19 +4,19 @@ import HelpCard from './HelpCard';
 
 let firstCard = {
     icon: 'flaticon-donation-1',
-    title: 'Make Donation',
+    title: 'Fă o Donație',
     description: 'Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.'
 }
 
 let secondCard = {
     icon: 'flaticon-charity',
-    title: 'Become A Volunteer',
+    title: 'Devino Voluntar',
     description: 'Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.'
 }
 
 let thirdCard = {
     icon: 'flaticon-donation',
-    title: 'Sponsorship',
+    title: 'Participă ca Partener',
     description: 'Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.'
 }
 

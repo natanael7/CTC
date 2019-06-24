@@ -5,9 +5,9 @@ import EventCards from '../components/App/EventComponents/EventCards.js'
 import FirstSlide from '../components/Global/FirstSlide.js'
 
 let FirstSlideProps = {
-    background: 'images/bg_1.jpg',
-    span: 'Event',
-    h1: 'Events'
+    background: 'images/bg_3.jpg',
+    span: 'Eveniment',
+    h1: 'Evenimentez'
 }
 
 function Event(){

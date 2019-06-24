@@ -7,8 +7,8 @@ import BeAVolunteer from '../components/Global/BeAVolunteer'
 
 let FirstSlideProps = {
     background: 'images/bg_2.jpg',
-    span: 'Gallery',
-    h1: 'Galleries'
+    span: 'Galerie',
+    h1: 'Galerii'
 }
 
 function Gallery(){

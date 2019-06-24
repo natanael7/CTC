@@ -8,9 +8,9 @@ import Counter from '../components/Global/Counter'
 
 
 let FirstSlideProps = {
-    background: 'images/bg_7.jpg',
-    span: 'About',
-    h1: 'About Us'
+    background: 'images/bg_1.jpg',
+    span: 'Despre',
+    h1: 'Despre Noi'
 }
 
 function About(){

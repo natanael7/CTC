@@ -7,8 +7,8 @@ import BeAVolunteer from '../components/Global/BeAVolunteer';
 
 let FirstSlideProps = {
     background: 'images/bg_7.jpg',
-    span: 'Donate',
-    h1: 'Donate'
+    span: 'Donează',
+    h1: 'Donații'
 }
 
 function Donate(){

@@ -8,10 +8,10 @@ $white: #fff;
 $black: #000;
 $darken: #4a5562;
 
-$primary: #f86f2d;
-$secondary: #fa8f3d;
-$tertiary: #faaa3a;
-$quarternary: #7cbd1e;
+$primary: rgb(153, 28, 60);
+$secondary: rgb(215, 31, 76);
+$tertiary: rgb(239, 77, 37);
+$quarternary: rgb(63, 194, 207);
 
 
 @mixin border-radius($radius) {

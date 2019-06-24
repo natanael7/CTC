@@ -6,7 +6,6 @@ function FirstSlide(props) {
 			<div
 				className="hero-wrap"
 				style={{ backgroundImage: `url(${props.background})` }}			
-				data-stellar-background-ratio="0.5"
 			>
 				<div className="overlay" />
 				<div className="container">
